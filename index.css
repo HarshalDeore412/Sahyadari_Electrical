@@ -1,0 +1,15 @@
+.carousel {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+  }
+  .carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+  }
+
+.bg-gradient-to-r {
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
