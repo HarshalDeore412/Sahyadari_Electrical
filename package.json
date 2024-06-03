@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "sahyadri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  
+  "scripts": {
+    "build": "npx tailwindcss -i .//index.css -o ./src/output.css --watch"
+  },
+  "author": "Harshal Deore",
+  "license": "ISC"
+}   
