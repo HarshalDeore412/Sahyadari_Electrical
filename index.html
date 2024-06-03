@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
     <link rel="stylesheet"
         href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
 
 
     <title>Document</title>
@@ -17,16 +19,15 @@
 <body class="">
     <!-- navbar -->
     <section>
-        <div class="w-11/12 bg-gray-50 mx-auto">
-            <nav
-                class="bg-gray-50  border-b border-sky-300 dark:border-gray-700 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 shadow">
+        <div class="w-full lg:w-11/12 bg-gray-50 mx-auto">
+            <nav class="bg-gray-50 border-b border-sky-300 dark:border-gray-700 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 shadow">
                 <div class="container flex flex-wrap justify-between items-center mx-auto">
                     <a href="/" class="flex items-center">
                         <span class="self-center">
                             <img class="h-12" src="./assets/logo.png" alt="">
                         </span>
                     </a>
-
+    
                     <div class="flex items-center">
                         <button id="menu-toggle" type="button"
                             class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden">
@@ -38,7 +39,7 @@
                             </svg>
                         </button>
                     </div>
-
+    
                     <div class="w-full md:block md:w-auto hidden" id="mobile-menu">
                         <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold">
                             <li class="">
@@ -74,561 +75,282 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </nav>
         </div>
     </section>
-
-    <!-- hero section  -->
-    <section class=" w-11/12 mx-auto bg-gray-50 relative pt-16 bg-blueGray-50">
-        <div class="container pb-10 mx-auto">
-            <div class="flex flex-wrap items-center">
-                <div class="w-10/12 flex flex-col md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-                    <div
-                        class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
-                        <img alt="Designer" src="./assets/Designer.png" class="w-full align-middle rounded-t-lg">
-                        <blockquote class="relative p-8 mb-4">
-                            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
-                                class="absolute left-0 w-full block h-95-px -top-94-px">
-                                <polygon points="-30,95 583,95 583,65" class="text-pink-500 fill-current"></polygon>
-                            </svg>
-                            <h4 class="text-xl font-bold text-black">
-                                Great for your awesome project
-                            </h4>
-                            <p class="text-md font-light mt-2 text-black">
-                                Putting together a page has never been easier than matching
-                                together pre-made components. From landing pages presentation
-                                to login areas, you can easily customise and built your pages.
-                            </p>
-                        </blockquote>
-                    </div>
-                </div>
-
-                <div class="w-full flex-row  md:w-6/12 px-4">
-                    <div>
-                        <h1
-                            class="font-black text-center pb-8 mb-10 text-4xl text-blue-900 before:block before:absolute before:bg-sky-300  relative before:w-1/3 before:h-1 before:bottom-0 before:left-1/3">
-                            आमच्या सव्हीसेस
-                        </h1>
-
-                    </div>
-
-
-                    <div class="w-[100%] flex flex-row  px-4">
-                        <div class="w-[50%]">
-                            <div class="relative flex flex-col mt-4">
-                                <div class="px-4 py-5 flex-auto">
-
-                                    <h6 class="text-xl mb-1 font-semibold">सप्लाय </h6>
-                                    <p class="mb-4 text-blueGray-500">
-                                        Notus JS comes with a huge number of Fully Coded CSS
-                                        components.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="relative flex flex-col min-w-0">
-                                <div class="px-4 py-5 flex-auto">
-
-                                    <h6 class="text-xl mb-1 font-semibold">
-                                        इरेक्शन
-                                    </h6>
-                                    <p class="mb-4 text-blueGray-500">
-                                        We also feature many dynamic components for React, NextJS,
-                                        Vue and Angular.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="relative flex flex-col min-w-0 mt-4">
-                                <div class="px-4 py-5 flex-auto">
-
-                                    <h6 class="text-xl mb-1 font-semibold">केबल </h6>
-                                    <p class="mb-4 text-blueGray-500">
-                                        This extension also comes with 3 sample pages. They are
-                                        fully coded so you can start working instantly.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="relative flex flex-col min-w-0">
-                                <div class="px-4 py-5 flex-auto">
-
-                                    <h6 class="text-xl mb-1 font-semibold">ट्रान्सफार्मर </h6>
-                                    <p class="mb-4 text-blueGray-500">
-                                        Built by developers for developers. You will love how easy
-                                        is to to work with Notus JS.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-[50%]">
-
-                            <div class="relative flex flex-col mt-4">
-                                <div class="px-4 py-5 flex-auto">
-
-                                    <h6 class="text-xl mb-1 font-semibold">लाइसोनिंग वर्क</h6>
-                                    <p class="mb-4 text-blueGray-500">
-                                        Notus JS comes with a huge number of Fully Coded CSS
-                                        components.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="relative flex flex-col min-w-0">
-                                <div class="px-4 py-5 flex-auto">
-
-                                    <h6 class="text-xl mb-1 font-semibold">
-                                        म.रा.वि.वि.कं.मर्या
-                                    </h6>
-                                    <p class="mb-4 text-blueGray-500">
-                                        We also feature many dynamic components for React, NextJS,
-                                        Vue and Angular.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="relative flex flex-col min-w-0 mt-4">
-                                <div class="px-4 py-5 flex-auto">
-
-                                    <h6 class="text-xl mb-1 font-semibold"> टेस्टिंग </h6>
-                                    <p class="mb-4 text-blueGray-500">
-                                        This extension also comes with 3 sample pages. They are
-                                        fully coded so you can start working instantly.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="relative flex flex-col min-w-0">
-                                <div class="px-4 py-5 flex-auto">
-
-                                    <h6 class="text-xl mb-1 font-semibold">नावात बदल </h6>
-                                    <p class="mb-4 text-blueGray-500">
-                                        Built by developers for developers. You will love how easy
-                                        is to to work with Notus JS.
-                                    </p>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
+    
 
 
 
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- About section  -->
-    <section id="About" class=" w-11/12 mx-auto bg-gray-50 ">
-        <h1
-            class="font-black mx-auto pb-5 mb-5 text-4xl text-blue-900 before:block before:absolute before:bg-sky-300  relative before:w-1/3 before:h-1 before:bottom-0 before:left-1/3 w-fit">
-            About</h1>
-
-        <div class="container flex">
-            <div class=" flex w-[100%]">
-                <div class="mx-auto">
-                    <img class="h-[500px] w-[500px] border border-sky-300 rounded-full  " src="./assets/Designer.png"
-                        alt="">
-                </div>
+    <section id="About" class="pt-10 w-full lg:w-11/12 mx-auto bg-gray-50">
+        <div class="container flex flex-col lg:flex-row">
+            <div class="flex justify-center lg:justify-start lg:w-1/2">
+                <img class="h-64 w-64 lg:h-[500px] lg:w-[500px] border border-sky-300 rounded-full" src="./assets/logo-circle.jpg" alt="Sahyadri Electricals Logo">
             </div>
-
-            <div class="px-4">
-                <div class="px-4 w-[100%]  px-8 pt-6 pb-8 mb-4">
-                    <h2 class="text-3xl text-center mb-4 font-semibold">सह्याद्री इलेकट्रीकल्स </h2>
-                    <p class="mb-4">de ourselves on being a prominent manufacturer and service provider in the
-                        Electrical Industry. With our headquarters nestled in the bustling city of Pune, we have been
-                        dedicated to offering top-notch electrical solutions and products.
-
-                        At Sahyadri Electrical, we pri </p>
+    
+            <div class="flex flex-col justify-center items-center lg:items-start lg:w-1/2">
+                <div class="px-4 w-full pt-6 pb-8 mb-4">
+                    <h2 class="text-3xl text-center lg:text-left mb-4 font-semibold">Sahyadri Electricals</h2>
+                    <h3 class="font-bold text-center lg:text-left pb-10">Powering Progress with Innovative Solutions</h3>
+                    <p class="mb-4">Founded in 2007 by a group of five visionary entrepreneurs, SE has established itself as a premier manufacturer and service provider in the electrical industry. Our journey over the past decade is a testament to our commitment to quality, innovation, and customer satisfaction.</p>
+    
                     <p class="mb-4">
-                        Our journey began at Office No. 11, Anjana Co. Op. Society, Bhekrainagar Tal - Haveli Dist -
-                        Pune, where we continue to innovate and expand our services to meet the growing demands of the
-                        industry.
+                        At SE, we pride ourselves on our sophisticated range of products and services, catering to a diverse clientele who trust us for our high-quality solutions. We operate across three pivotal areas of the power sector:
                     </p>
-                    <p class="mb-4">
-                        Our commitment to quality and customer satisfaction has been the cornerstone of our success. We
-                        believe in forging strong relationships with our clients and ensuring that their needs are met
-                        with the highest standards of excellence.
+    
+                    <h6 class="text-xl mb-1 font-semibold">Manufacturing</h6>
+                    <p class="mb-4 text-blueGray-500">
+                        Crafting state-of-the-art electrical components that power industries.
                     </p>
-                    <p class="mb-4">
-                        For any inquiries or further information, feel free to reach out to us at our contact number
-                        <strong>+91 86259 99996</strong> or email us at
-                        <strong>shayadarielectricalpune@gmail.com</strong>. We are always here to assist you with your
-                        electrical needs.
+    
+                    <h6 class="text-xl mb-1 font-semibold">
+                        Power Management Solutions and Projects
+                    </h6>
+                    <p class="mb-4 text-blueGray-500">
+                        Specializing in turn-key projects that streamline operations from conception to execution.
+                    </p>
+    
+                    <h6 class="text-xl mb-1 font-semibold">Operations and Maintenance</h6>
+                    <p class="mb-4 text-blueGray-500">
+                        Ensuring the longevity and efficiency of electrical systems through meticulous care.
                     </p>
                 </div>
             </div>
-
         </div>
+    </section>
+    
 
 
+
+
+    <!-- SERIVES section  -->
+    <section class="mx-auto w-full lg:w-11/12 bg-gray-50 relative pt-16 bg-blueGray-50">
+
+        <div class=" md:w-11/12 mx-auto px-4">
+
+            <h1
+                class="font-black text-center pb-8 mb-10 text-4xl text-blue-900 before:block before:absolute before:bg-sky-300  relative before:w-1/3 before:h-1 before:bottom-0 before:left-1/3">
+                Services
+            </h1>
+
+
+
+
+            <div class="w-[100%] pb-10 flex flex-row  px-4">
+                <div>
+
+                    <div class="mb-5">
+                        <h3 class="font-bold mb-5">
+                            Projects Division
+                        </h3>
+                        <p>Our Projects Division is at the forefront of power management, handling projects from design
+                            to execution. We specialize in industrial sectors and also serve commercial, residential,
+                            and various other industries. Our comprehensive services include liaison work, erection,
+                            testing, maintenance, and commissioning.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold mb-5">
+                            Fields of Operation
+                        </h3>
+                        <ul class="flex flex-wrap">
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> Steel Industry</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> Pharmaceutical</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> Industrial</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> Oil and Gas</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> Power</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> Commercial Complexes</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> Institutions – Government &
+                                Private</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> MSEDCL</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> MSETCL</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded"> Mahagenco</li>
+                        </ul>
+                    </div>
+                    <!-- first -->
+                    <div>
+                        <h3 class="font-bold mb-5">
+                            Design & Engineering:
+                        </h3>
+                        <p>We offer full design packages, encompassing engineering and drafting for new builds, refits,
+                            and electrical systems. Our design capabilities include :</p>
+                        <ul class="flex flex-wrap">
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded">Complete design packages</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded">New build electrical system design
+                                (AC and DC)</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded">Refit electrical design</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded">Switchboard, starter, and control
+                                panel design</li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded">Alarm and monitoring system design
+                            </li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded">Generator control system design
+                            </li>
+                            <li class="p-2 border m-2 w-fit  border-gray-700 rounded">Electrical power generation,
+                                protection, and distribution design</li>
+                        </ul>
+                    </div>
+                    <!-- second  -->
+                    <div>
+                        <h3 class="font-bold mb-5">
+                            Installation Services:
+                        </h3>
+                        <ul class="pl-6">
+                            <li class="p-2 list-disc  m-2 w-fit  ">Precision in cable supply, installation, and
+                                termination.</li>
+                            <li class="p-2 list-disc m-2 w-fit  ">Full-scale electrical system installations.</li>
+                            <li class="p-2 list-disc m-2 w-fit ">Control system and air conditioning/refrigeration
+                                electrical systems</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- third  -->
+                    <div>
+                        <h3 class="font-bold mb-5">
+                            Maintenance & Repair:
+                        </h3>
+                        <ul class="pl-6">
+                            <li class="p-2 list-disc  m-2 w-fit">Rapid emergency response and repair services.</li>
+                            <li class="p-2 list-disc m-2 w-fit ">Maintenance and repair of electrical power generation,
+                                protection, and distribution systems.</li>
+                            <li class="p-2 list-disc m-2 w-fit ">Mechanical services and rotating machinery repair.</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- fourth  -->
+
+                    <div>
+                        <h3 class="font-bold mb-5">
+                            Liaison Services:
+                        </h3>
+                        <ul class="pl-6">
+                            <li class="p-2 list-disc  m-2 w-fit">Specialized liaison services with MSEDCL, MSETCL, and
+                                Mahagenco.</li>
+                            <li class="p-2 list-disc m-2 w-fit ">Engagement with all government agencies.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold mb-5">
+                            Quality Assurance
+                        </h3>
+                        <p>
+                            At SE, quality is not a compromise—it’s a guarantee. Our quality management system ensures
+                            that our clients receive exactly what they need, when they need it. We pride ourselves on
+                            delivering projects on time and within budget, without ever sacrificing service quality.
+                        </p>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
     </section>
 
 
-    <!-- review  -->
-    <section id="Review" class="w-11/12 mx-auto ">
+    <!-- previous clients  -->
+    <section class="pt-10 pb-10 pt-10 w-full lg:w-11/12 mx-auto bg-gray-50 ">
 
-        <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-            <div class="m-10 flex flex-col items-center mx-auto max-w-screen-lg">
-                <div class="header flex w-full justify-center">
-                    <h2
-                        class="font-black pb-10 mb-20 text-5xl text-blue-900 before:block before:absolute before:bg-sky-300  relative before:w-1/3 before:h-1 before:bottom-0 before:left-1/3">
-                        Reviews</h2>
-                </div>
-                <div class="grid w-full gap-10 grid-cols-3">
-                    <div
-                        class="bg-white w-full rounded-lg shadow-md flex flex-col transition-all overflow-hidden hover:shadow-2xl">
-                        <div class="  p-6">
+        <h2
+            class="font-black mx-auto pb-10 mb-20 text-5xl text-blue-900 before:block before:absolute before:bg-sky-300  relative before:w-1/3 before:h-1 before:bottom-0 before:left-1/3 w-fit">
+            Our clients
+        </h2>
 
-                            <div
-                                class="pb-3 mb-4 border-b border-stone-200 text-xs font-medium flex justify-between text-blue-900">
-                                <span class="flex items-center gap-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                    </svg>
-                                    7 March, 2022
-                                </span>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
-                                    </svg>
-                                </span>
-                            </div>
-                            <h3 class="mb-4 font-semibold  text-2xl"><a href=""
-                                    class="transition-all text-blue-900 hover:text-blue-600">laboriosam doloribus quas.
-                                    Voluptatum</a></h3>
-                            <p class="text-sky-800 text-sm mb-0">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore laborum iste
-                                laboriosam doloribus quas. Voluptatum
-                            </p>
-                        </div>
-                        <div class="mt-auto">
-                            <img src="https://picsum.photos/400/300" alt="" class="w-full h-48 object-cover">
-                        </div>
-                    </div>
-                    <div
-                        class="bg-white w-full rounded-lg shadow-md flex flex-col transition-all overflow-hidden hover:shadow-2xl">
-                        <div class="  p-6">
-
-                            <div
-                                class="pb-3 mb-4 border-b border-stone-200 text-xs font-medium flex justify-between text-blue-900">
-                                <span class="flex items-center gap-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                    </svg>
-                                    7 March, 2022
-                                </span>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
-                                    </svg>
-
-                                </span>
-                            </div>
-                            <h3 class="mb-4 font-semibold  text-2xl"><a href=""
-                                    class="transition-all text-blue-900 hover:text-blue-600">laboriosam doloribus quas.
-                                    Voluptatum</a></h3>
-                            <p class="text-sky-800 text-sm mb-0">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore laborum iste
-                                laboriosam doloribus quas. Voluptatum
-                            </p>
-                        </div>
-                        <div class="mt-auto">
-                            <img src="https://picsum.photos/400/300" alt="" class="w-full h-48 object-cover">
-                        </div>
-                    </div>
-                    <div
-                        class="bg-white w-full rounded-lg shadow-md flex flex-col transition-all overflow-hidden hover:shadow-2xl">
-                        <div class="  p-6">
-
-                            <div
-                                class="pb-3 mb-4 border-b border-stone-200 text-xs font-medium flex justify-between text-blue-900">
-                                <span class="flex items-center gap-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                    </svg>
-                                    7 March, 2022
-                                </span>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
-                                    </svg>
-
-                                </span>
-                            </div>
-                            <h3 class="mb-4 font-semibold  text-2xl"><a href=""
-                                    class="transition-all text-blue-900 hover:text-blue-600">laboriosam doloribus quas.
-                                    Voluptatum</a></h3>
-                            <p class="text-sky-800 text-sm mb-0">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore laborum iste
-                                laboriosam doloribus quas. Voluptatum
-                            </p>
-                        </div>
-                        <div class="mt-auto">
-                            <img src="https://picsum.photos/400/300" alt="" class="w-full h-48 object-cover">
-                        </div>
-                    </div>
-                </div>
+        <div id="carousel" class="carousel-container">
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]"
+                    src="/assets/clients/ashoka-buildcon-limited-logo.png" alt="pre-cst">
+                <p>Ashoka Buildcon Limited Nashik </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/bu bhandari.webp"
+                    alt="pre-cst">
+                <p>B.U. Bhandari </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/" alt="pre-cst">
+                <p>Tulsi Developers Pune </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/golden emrald.jpg"
+                    alt="pre-cst">
+                <p> Golden Emerald Pune</p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/suraj hospital.jpg"
+                    alt="pre-cst">
+                <p>Suraj Hospital Pune </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/" alt="pre-cst">
+                <p> Geet Motors Pune </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/SJSB.jpg" alt="pre-cst">
+                <p> Solapur Janta Sahakari Bank </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/" alt="pre-cst">
+                <p> Bhagyalaxmi Dairy Farms PVT.LTD. </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]"
+                    src="/assets/clients/walko_food_company_private_limited_logo.jpg" alt="pre-cst">
+                <p> Walko QSR Company PVT.LTD.</p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients" alt="pre-cst">
+                <p> SRJ Computers PVT. LTD. </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/" alt="pre-cst">
+                <p> Ranjeet Developers </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]"
+                    src="/assets/clients/Matoshree-Prabha-Builders-and-Developers.jpg" alt="pre-cst">
+                <p> Prabha Developers </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/" alt="pre-cst">
+                <p> Atharva Developers </p>
+            </div>
+            <div class="carousel-slide"> <img class="h-[100px] w-[200px]" src="/assets/clients/" alt="pre-cst">
+                <p> Rochem Green Energy Pvt Ltd </p>
             </div>
         </div>
-
     </section>
 
     <!-- contact us section  -->
-    <section id="Contact">
-        <div class="container bg-gray-50 w-11/12 mx-auto p-4">
-
-            <div class=" bg-gray-50 mx-auto w-[80%] rounded px-8 pt-6 pb-8 mb-4">
-                <h1
-                    class="font-black mx-auto pb-10 mb-20 text-5xl text-blue-900 before:block before:absolute before:bg-sky-300  relative before:w-1/3 before:h-1 before:bottom-0 before:left-1/3 w-fit">
-                    Contact Us</h1>
-                <form onsubmit="">
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
-                            Name
-                        </label>
-                        <input
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                            id="name" type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
-                            Email
-                        </label>
-                        <input
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                            id="email" type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
-                            Message
-                        </label>
-                        <textarea
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                            id="message" placeholder="Your Message" required></textarea>
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <!-- component -->
-                        <button onclick="savetolocal" data-ripple-light="true" data-popover-target="popover"
-                            class="middle none w-40 center rounded-lg bg-gradient-to-tr from-pink-600 to-pink-400 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-                            send <i class="fab fa-arrow-circle-o-right" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </form>
-            </div>
+    <section id="Contact" class="bg-gray-50 w-full lg:w-11/12 mx-auto py-10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+            <h1 class="text-5xl font-black text-blue-900 mb-10 text-center">Contact Us</h1>
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                        Name
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email" required>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                        Message
+                    </label>
+                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="flex items-center justify-center">
+                    <button type="submit" class="w-40 bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                        Send
+                    </button>
+                </div>
+            </form>
         </div>
     </section>
-
-
-    <!-- FAQ section  -->
-
-    <section>
-        <div class=" bg-gray-50 w-11/12 mx-auto mx-auto px-5 min-h-sceen">
-            <div class="flex flex-col items-center">
-                <h2
-                    class="font-black pt-5 mx-auto pb-5 mb-5 text-5xl text-blue-900 before:block before:absolute before:bg-sky-300  relative before:w-1/3 before:h-1 before:bottom-0 before:left-1/3 w-fit">
-                    FAQ
-                </h2>
-                <p class="text-neutral-500 text-xl mt-3">
-                    Frequenty asked questions
-                </p>
-            </div>
-            <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> What is a SAAS platform?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            SAAS platform is a cloud-based software service that allows users to access
-                            and use a variety of tools and functionality.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How does billing work?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            We offers a variety of billing options, including monthly and annual subscription plans,
-                            as well as pay-as-you-go pricing for certain services. Payment is typically made through a
-                            credit
-                            card or other secure online payment method.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> Can I get a refund for my subscription?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            We offers a 30-day money-back guarantee for most of its subscription plans. If you are not
-                            satisfied with your subscription within the first 30 days, you can request a full refund.
-                            Refunds
-                            for subscriptions that have been active for longer than 30 days may be considered on a
-                            case-by-case
-                            basis.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How do I cancel my subscription?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            To cancel your We subscription, you can log in to your account and navigate to the
-                            subscription management page. From there, you should be able to cancel your subscription and
-                            stop
-                            future billing.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> Can I try this platform for free?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            We offers a free trial of its platform for a limited time. During the trial period,
-                            you will have access to a limited set of features and functionality, but you will not be
-                            charged.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How do I access documentation?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            Documentation is available on the company's website and can be accessed by
-                            logging in to your account. The documentation provides detailed information on how to use
-                            the ,
-                            as well as code examples and other resources.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How do I contact support?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            If you need help with the platform or have any other questions, you can contact the
-                            company's support team by submitting a support request through the website or by emailing
-                            support@We.com.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> Do you offer any discounts or promotions?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            We may offer discounts or promotions from time to time. To stay up-to-date on the latest
-                            deals and special offers, you can sign up for the company's newsletter or follow it on
-                            social media.
-                        </p>
-                    </details>
-                </div>
-                <div class="py-5">
-                    <details class="group">
-                        <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                            <span> How do we compare to other similar services?</span>
-                            <span class="transition group-open:rotate-180">
-                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                    viewBox="0 0 24 24" width="24">
-                                    <path d="M6 9l6 6 6-6"></path>
-                                </svg>
-                            </span>
-                        </summary>
-                        <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                            This platform is a highly reliable and feature-rich service that offers a wide range
-                            of tools and functionality. It is competitively priced and offers a variety of billing
-                            options to
-                            suit different needs and budgets.
-                        </p>
-                    </details>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
+    
     <!-- Footer  -->
-    <footer id="Footer" class="relative w-11/12 mx-auto bg-gray-50 pt-8 pb-6">
+    <hr class="border-sky-300 w-full lg:w-11/12 mx-auto">
+    <!-- <footer id="Footer" class="relative w-11/12 mx-auto bg-gray-50 pt-8 pb-6">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap text-left lg:text-left">
                 <div class="w-full lg:w-6/12 px-4">
@@ -716,7 +438,7 @@
                     </div>
                 </div>
             </div>
-            <hr class="my-6 border-blueGray-300">
+            <hr class="border-sky-300 w-11/12 mx-auto">
             <div class="flex flex-wrap items-center md:justify-between justify-center">
                 <div class="w-full md:w-4/12 px-4 mx-auto text-center">
                     <div class="text-sm text-blueGray-500 font-semibold py-1">
@@ -727,8 +449,93 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
+
+    <footer id="Footer" class="bg-gray-50 w-full mx-auto w-11/12 pt-8 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-6/12 px-4 mb-6 md:mb-0">
+                    <h4 class="text-3xl font-semibold text-blueGray-700">Let's keep in touch!</h4>
+                    <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+                        Find us on any of these platforms, we respond within 1-2 business days.
+                    </h5>
+                    <div class="mt-6">
+                        <!-- Social Media Links -->
+                        <a href="https://twitter.com/sahyadrielectrical" class="text-lightBlue-400 mr-2">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/sahyadrielectrical/" class="text-lightBlue-600 mr-2">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="https://dribbble.com/sahyadrielectrical/" class="text-pink-400 mr-2">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="https://github.com/sahyadrielectrical/" class="text-blueGray-800 mr-2">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 px-4">
+                    <div class="flex flex-wrap justify-between">
+                        <div class="w-full md:w-4/12 px-4 mb-6 md:mb-0">
+                            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+                            <ul class="list-unstyled">
+                                <!-- Add actual URLs for each link -->
+                                <li><a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#About">About Us</a></li>
+                                <li><a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#Blog">Blog</a></li>
+                                <li><a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#Github">Github</a></li>
+                                <li><a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#FreeProducts">Free Products</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-4/12 px-4">
+                            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+                            <ul class="list-unstyled">
+                                <!-- Add actual URLs for each link -->
+                                <li><a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#MITLicense">MIT License</a></li>
+                                <li><a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#Terms">Terms & Conditions</a></li>
+                                <li><a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#PrivacyPolicy">Privacy Policy</a></li>
+                                <li><a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#Contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-sky-300">
+            <div class="flex flex-wrap items-center justify-center">
+                <div class="w-full px-4 text-center">
+                    <div class="text-sm text-blueGray-500 font-semibold py-1">
+                        Copyright © 2024 <a href="#" class="text-blueGray-500 hover:text-blueGray-800">Sahyadri Electricals</a>. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <script>
+
+        const carousel = document.getElementById('carousel');
+        let scrollAmount = 0;
+        const distance = 300; // distance to scroll each step
+        const step = 1; // scroll step in pixels
+        const speed = 1; // lower is faster
+        const scrollRight = () => {
+            carousel.scrollLeft += step;
+            scrollAmount += step;
+            if (scrollAmount < distance) {
+                requestAnimationFrame(scrollRight);
+            } else {
+                scrollAmount = 0;
+                // Adjust timeout to control the time between each scroll
+                setTimeout(() => { requestAnimationFrame(scrollRight); }, 0);
+            }
+        };
+        // Start scrolling
+        scrollRight();
+
+    </script>
 
 </body>
 
